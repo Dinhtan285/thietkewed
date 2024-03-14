@@ -1,0 +1,27 @@
+h1, p, a {
+    border: 1px solid #000;
+    color: #333;
+}
+a {
+    text-decoration: none;
+}
+
+/* Định dạng cho bảng */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    background-color: #f2f2f2;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+}
+h3 {
+    color: blueviolet;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
