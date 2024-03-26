@@ -1,55 +1,50 @@
-</style>
-</head>
-<body>
-    <div class="web">
-        <div class="conten">
-            <div class="left">
-                <img src="https://photo-baomoi.bmcdn.me/w700_r16x9/2024_03_25_338_48657537/7f1f169aedd604885dc7.jpg.webp" alt="">
-                <a href="">Mẹ nam sinh lớp 8 bị đánh chết não ở Long Biên (Hà Nội): 'Gia đình tôi xác định là đã mất con rồi...'</a>
-            </div>
-            <div class="right">
-                <div class="content">
-                    <img src="https://photo-baomoi.bmcdn.me/w100_r1x1/2024_03_19_294_48597769/3007f131777d9e23c76c.jpg.webp" alt="">
-                    <div class="noidung">
-                        <a href="">Cán bộ cấp chiến lược là tầng lớp 'tinh hoa'</a><br>
-                        <b>98 lien quan</b>
-                    </div>
-                </div>
-                <hr>
-                <div class="content">
-                    <img src="https://photo-baomoi.bmcdn.me/w100_r1x1/2024_03_26_294_48657670/35cdcd50361cdf42860d.jpg.webp" alt="">
-                    <div class="noidung">
-                        <a href="">Thủ đô Tokyo cảnh báo y tế về hội chứng sốc nhiễm độc</a><br>
-                        <b>98 lien quan</b>
-                    </div>
-                </div>
-                <hr>
-                <div class="content">
-                    <img src="https://photo-baomoi.bmcdn.me/w100_r1x1/2024_03_26_15_48657671/521daf8154cdbd93e4dc.jpg.webp" alt="">
-                    <div class="noidung">
-                        <a href="">CLIP xét xử Trương Mỹ Lan và đồng phạm (ngày thứ 15)</a><br>
-                        <b>98 lien quan</b>
-                    </div>
-                </div>
-                <hr>
-                <div class="content">
-                    <img src="https://photo-baomoi.bmcdn.me/w100_r1x1/2024_03_26_15_48657683/69d21bb5e0f909a750e8.jpg.webp" alt="">
-                    <div class="noidung">
-                        <a href="">Nỗ lực làm mới kịch sử Việt</a><br>
-                        <b>98 lien quan</b>
-                    </div>
-                </div>
-                <hr>
-                <div class="content">
-                    <img src="https://photo-baomoi.bmcdn.me/w100_r1x1_sm/2024_03_26_294_48657667/94d94e44b5085c560519.jpg.webp" alt="">
-                    <div class="noidung">
-                        <a href="">Cán bộ cấp chiến lược là tầng lớp tinh hoa cua</a><br>
-                        <b>98 lien quan</b>
-                    </div>
-                </div>
-                <hr>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+/* mouse over link */
+a:hover {
+    color: aquamarine;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+  a:link {
+text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+.all {
+    width: 1400px;
+    margin: auto;
+}
+.column {
+    float: left;
+    width: 800px;
+    padding: 5px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.columnimg {
+  width: 800px;
+  border-radius: 10px;
+
+}
+.column1 {
+    float: right;
+    width: 580px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .div1 {
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;
+  }
+  .div2 {
+    float: left;
+    padding: 1px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
