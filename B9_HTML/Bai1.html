@@ -1,70 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="01style.CSS">
-    <style>
-        *{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+/* mouse over link */
+   a:hover {
+    color: aquamarine;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+  a:link {
+text-decoration: none;
 }
-.web{
-    
-    width: 980px;
+a:visited {
+    text-decoration: none;
+}
+.all {
+    width: 1400px;
     margin: auto;
 }
-.conten{
-    display: flex;
+.column {
+    float: left;
+    width: 800px;
+    padding: 5px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.columnimg {
+  width: 800px;
+  border-radius: 10px;
+
 }
-.left{
-    img{
-        width: 625px;
-        height: 340px;
-        margin-top: 20px;
-        border-radius: 5px;
-    }
-    a{  
-        color: black;
-        text-decoration: none;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}
-.right{
-    padding-left: 20px;
-}
-.content{
-    display: flex;
-    height: 79px;
-    width: 330px;
-    a{  
-        color: black;
-        text-decoration: none;
-        font-size: 17px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    img{
-        margin-top: 20px;
-        width: 60px;
-        height: 60px;
-        border-radius: 5px;
-    }
-}
-.noidung{
-    margin-top: 20px;
-    margin-left: 10px
-}
-b{
-    color: gray;
-    font-size: 10px;
-}
-hr{
-    margin-top: 15px;
-    color: gray;
-}
-a:hover{
-    color: aqua;
-}
+.column1 {
+    float: right;
+    width: 580px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .div1 {
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90px;
+    height: 90px;
+  }
+  .div2 {
+    float: left;
+    padding: 1px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
