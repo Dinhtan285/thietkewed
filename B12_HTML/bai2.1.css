@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: beige;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    display: flex;
+    align-items: center; 
+    font-size: 16px;
+    padding-left: 30px; 
+    width: auto;
+}
+.horizontal-line {
+    height: 1px; 
+    background-color: gray; 
+    margin: 10px 0; 
+}
+.zing3{
+    display: flex;
+}
+.menu{
+    background-color: #231b2e;
+    height: 780px;
+    width: 470px;
+}
+.img{
+    width: 240px;
+    height: 70px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: -25px; 
+}
+i{
+    margin-right: 10px;
+}
+.img img{
+    height: 40px;
+    width: 130px;
+}
+.music{
+    width: 2000px;
+    background-color: #170f23;
+}
