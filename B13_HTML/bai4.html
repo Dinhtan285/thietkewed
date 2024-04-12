@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toggle Yes/No</title>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box {
+        border: 2px solid black;
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+        text-align: center;
+        cursor: pointer;
+        margin-bottom: 20px;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+    }
+
+    h1 {
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+    <h1>DƯƠNG có xinh không ?</h1>
+<div class="container">
+    <div id="toggle1" class="box" onclick="showMessage('yes')" onmouseover="changeText(this)" onmouseout="restoreText(this)">Có</div>
+    <div id="toggle2" class="box" onclick="showMessage('no')"><p>Không :v </p></div>
+</div>
+
+<script>
+function showMessage(choice) {
+  if (choice === 'yes') {
+    alert('Chúc mừng bạn trả lời đúng');
+  }
+  else if (choice === 'no') {
+    alert('Chúc mừng bạn trả lời đúng');
+  }
+}
+
+function changeText(element) {
+  element.innerHTML = "Không =((";
+}
+
+function restoreText(element) {
+  element.innerHTML = "Có";
+}
+</script>
+</body>
+</html>
