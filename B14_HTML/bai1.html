@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .web {
+            background-color: #f2f2f2;
+        }
+
+        .header {
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            a{
+                text-decoration: none;
+            }
+        }
+
+        .left-image {
+            margin-left: 86px;
+            height: 70px;
+        }
+
+        .menu-icon {
+            font-size: 30px;
+        }
+
+        .title {
+            padding-top: 90px;
+        }
+
+        .right-link {
+            float: right;
+            margin-right: 145px;
+        }
+
+        h1 {
+            margin-top: 80px;
+            margin-left: 100px;
+            font-size: 60px;
+        }
+
+        .menu {
+            ul {
+                margin-left: 76px;
+                display: flex;
+                list-style: none;
+            }
+
+            ul li {
+                position: relative;
+                cursor: pointer;
+            }
+
+            ul li a {
+                color: black;
+                text-decoration: none;
+            }
+
+            ul li::after {
+                content: "";
+                position: absolute;
+                bottom: -5px;
+                left: 0;
+                width: 0;
+                height: 1.5px;
+                background-color: black;
+                transition: width 0.3s ease;
+            }
+
+            ul li:hover::after {
+                width: 100%;
+            }
+        }
+
+        .picture {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .anh1,
+        .anh2,
+        .anh3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .anh1 img,
+        .anh2 img,
+        .anh3 img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+
+        .type2 {
+            margin-left: 80px;
+        }
+
+        .picture2 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }       
+
+        .picture2 img {
+            width: 200px;
+            height: auto;
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="web">
+        <div class="header">
+            <a href=""><img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/06/Kalium-Theme-Icon.png" alt="" class="left-image"></a>
+            <a class="right-link" href=""><span class="menu-icon">&#9776;</span></a>
+        </div>
+        <div class="title">
+            <h1>Clear thinking at the wrong <br> moment can stifle creativity_</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">All</a></li>
+                <li><a href="">Branding</a></li>
+                <li><a href="">Digital Art</a></li>
+                <li><a href="">Photography</a></li>
+                <li><a href="">Print</a></li>
+            </ul>
+            <div class="picture">
+                <div class="anh1">
+                    <a href=""><img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/05/adestra-c-300x200.jpg" alt=""></a>
+                    <a href=""><img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/03/cloud-inc-c-300x200.jpg" alt=""></a>
+                </div>
+                <div class="anh2">
+                    <a href=""><img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/desk-concept-c-468x468.jpg" alt=""></a>
+                    <a href=""><img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/capricho-c-300x182.jpg" alt=""></a>
+                </div>
+                <div class="anh3">
+                    <a href=""><img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/multi-color-c-300x199.jpg" alt=""></a>
+                    <a href=""><img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2021/04/ethics-for-design-c-300x200.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="type2">
+                <h2>CLIENTS.</h2>
+                <p>Behind our customers see a project, behind every project opportunity. <br>
+                    These are some with whom we had the pleasure of working. You want to be the next?</p>
+            </div>
+            <div class="picture2">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/99c8d4a6236909e8ca6595f17d3beb42-526x350.png" alt="">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/3271e061a233655a102994847cb69de1-526x350.png" alt="">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/90269addf8c55bf43425bdb21601d050-526x350.png" alt="">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/5521547fa5e9e668de5792e4ba309465-526x350.png" alt="">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/b116b17e802f0cb2c19389fd34c15459-526x350.png" alt="">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/e397953f834d698159cdf2ab23f1f2c8-526x350.png" alt="">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/logos-526x350.png" alt="">
+                    <img src="https://demo.kaliumtheme.com/agency/wp-content/uploads/2015/07/b116b17e802f0cb2c19389fd34c15459-526x350.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+demo.kaliumtheme.com
